@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+
+class construct{
+    public:
+    int a,b;
+    int sum;
+
+    construct(int m, int n){
+        a = m;
+        b = n;
+        sum = m+n;
+    }
+    void display(){
+        cout<<"Sum is: "<<sum;
+    }
+};
+
+int main(){
+    construct c(10, 20);
+    c.display();
+    
+}
